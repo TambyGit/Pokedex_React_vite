@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+paragraphe{
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+
+span{
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h3{
+    font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
