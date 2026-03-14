@@ -61,7 +61,7 @@ export default function App() {
       const flavorText = data.flavor_text_entries.find(
         (entry) => entry.language.name === "en"
       );
-      return flavorText ? flavorText.flavor_text : "No description available.";
+      return flavorText ? flavorText.flavor_text : "No description.";
     } catch (err) {
       return "Failed to load description.";
     }
